@@ -57,4 +57,11 @@ meteor npm install --save @babel/runtime meteor-node-stubs
 meteor npm install --save web3 truffle-contract
 
 meteor update --patch
+meteor update
+meteor update --all-packages
+meteor npm install --save @babel/runtime
+
+sudo apt --fix-broken install
+sudo apt-get update
+sudo apt-get -f upgrade
 
