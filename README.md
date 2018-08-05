@@ -92,3 +92,14 @@ and change 0.7 to 7 etc according to https://github.com/OpenSTFoundation/openst-
 
 also rm the lines with userRegistry.json
 https://github.com/giulidb/ticket-meteor-dapp/search?q=userRegistry.json&unscoped_q=userRegistry.json
+
+an rm the lines with Envents.json
+https://github.com/giulidb/ticket-meteor-dapp/search?q=Event.json&unscoped_q=Event.json
+
+IMPORTANT: START with truffle develop in the directory import/api/ethereum/truffle/contracts
+then in the truffle environment 
+compile
+migrate
+
+
+
