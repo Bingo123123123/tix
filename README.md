@@ -61,7 +61,29 @@ meteor update
 meteor update --all-packages
 meteor npm install --save @babel/runtime
 
+
+meteor reset
+--------
+
+$ rm -rf node_modules/bcrypt
+$ npm install
+according to https://stackoverflow.com/questions/46384591/node-was-compiled-against-a-different-node-js-version-using-node-module-versio
+
+
+updates
+----------------
+
 sudo apt --fix-broken install
 sudo apt-get update
 sudo apt-get -f upgrade
 
+or 
+sudo dpkg --configure -a
+sudo apt update && sudo apt-get autoclean && sudo apt-get clean && sudo apt-get autoremove
+sudo apt dist-upgrade -y
+
+ethereum updates
+----------------
+replace web3.toWei()
+with
+web3.utils.toWei()
