@@ -87,3 +87,8 @@ ethereum updates
 replace web3.toWei()
 with
 web3.utils.toWei()
+in imports/startup/server/loader.js
+and change 0.7 to 7 etc according to https://github.com/OpenSTFoundation/openst-platform/issues/32
+
+also rm the lines with userRegistry.json
+https://github.com/giulidb/ticket-meteor-dapp/search?q=userRegistry.json&unscoped_q=userRegistry.json
